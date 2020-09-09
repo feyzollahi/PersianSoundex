@@ -90,12 +90,5 @@ public class TestMap {
     public void testSoundex20(){
         assertFalse(RefinedSoundex.IsEqualSoundex("گودال", "قوغاز"));//G340, G220
     }
-//    @Test
-//    public void testSoundex21(){
-//        RefinedSoundex.GetSoundex("يکتا");
-//        String first = "يکتا";
-//        String second = "یکتا";
-//        System.out.println(RefinedSoundex.soundexMappingForFirstLetter.get("یکتا".substring(0, 1)));
-//    }
 
 }
